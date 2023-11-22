@@ -1,0 +1,13 @@
+MulDiv	0	1048576
+RVCExpander	0	0
+CSRFile	0	1048576
+BreakpointUnit	0	0
+IBuf	1	32
+	RVCExpander	RVCExpander
+ALU	0	0
+RocketCore	5	1048576
+	CSRFile	csr
+	ALU	alu
+	BreakpointUnit	bpu
+	IBuf	ibuf
+	MulDiv	div

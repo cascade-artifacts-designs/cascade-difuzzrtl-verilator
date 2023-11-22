@@ -1,0 +1,16 @@
+__pycache__
+.ccls-cache
+
+build
+builddir
+outdir
+*.log
+*.elf
+*.hex
+*.dump
+sim_build*
+out
+firrtl_old
+disco-elfs
+out_*
+core
