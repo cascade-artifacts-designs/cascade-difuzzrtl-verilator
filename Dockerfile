@@ -2,7 +2,7 @@
 # Licensed under the General Public License, Version 3.0, see LICENSE for details.
 # SPDX-License-Identifier: GPL-3.0-only
 
-FROM ubuntu:latest
+FROM ubuntu:22.04
 ENV DEBIAN_FRONTEND=noninteractive
 RUN apt-get update && apt-get install -y curl gnupg apt-utils && \
     apt-get install -y apt-transport-https curl gnupg git perl python3 make autoconf g++ flex bison ccache libgoogle-perftools-dev numactl perl-doc libfl2 libfl-dev zlib1g zlib1g-dev \
