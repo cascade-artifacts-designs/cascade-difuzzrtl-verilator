@@ -23,7 +23,7 @@ Please refer to the Docker documentation for more information.
 Then, you can run a Docker container with the following command:
 
 ```
-make run
+CASCADE_DOCKER_MNT_DIR=$(pwd)/difuzz-rtl make run
 ```
 
 ## Evaluating DifuzzRTL on the DifuzzRTL coverage metric
